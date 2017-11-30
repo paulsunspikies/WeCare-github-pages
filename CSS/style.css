@@ -30,7 +30,7 @@ body {
 	text-align: center;
 	padding-top: 150px;
 	color: white;
-	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 
 #wrapper H1 {
@@ -45,6 +45,8 @@ body {
 .spacer {
 	height: 8em;
 }
+
+
 
 .feature {
 	font-weight: 300;
@@ -87,4 +89,12 @@ body {
 .navbar-transparent .navbar-brand:active,
 .navbar-transparent .navbar-brand:focus {
   color: white;
+}
+
+#comment {
+	font-size: 25px;
+}
+
+.exemples {
+	font-size: 12px;
 }
