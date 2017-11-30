@@ -1,20 +1,16 @@
+<!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>WeCare : Care and happiness for employees </title>
+    <title>IceMe - Dégustez une glace, maintenant !</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-
-
-    <link rel="stylesheet"  href="CSS/style.css">  
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-
-
-
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -23,7 +19,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-transparent" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -33,8 +29,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            WeCare : Care and Happiness for employees
+          <a class="navbar-brand" href="index.html">
+            ICE ME
           </a>
         </div>
 
@@ -45,19 +41,14 @@
             <li><a href="#">Link</a></li>
           </ul> -->
           <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="#">Devenir Partenaire</a>
-             </li>
             <li>
-              <a href="#">Tester gratuitement</a>
+              <a href="contact.html">Contact</a>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contactez-nous! <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suivez-nous ! <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#"> <i class="fa fa-twitter-square"></i> Linkedin</a></li>
+                <li><a href="#"> <i class="fa fa-twitter-square"></i> Twitter</a></li>
                 <li><a href="#"> <i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="#"> <i></i> 06 12 21 83 82</a></li>
-                <li><a href="#"> <i></i> Hello@wecare.io</a></li>
               </ul>
             </li>
           </ul>
@@ -65,278 +56,156 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-      
 
-      <div id="wrapper"> 
-        <h1>Prendre soin de ses employés n'a jamais été aussi simple</h2> 
-        <H2>Chief Happiness Officer as a service</H2>
-         <button type="button" class="btn btn-primary">Ajouter WeCare gratuitement sur mon Slack</button> 
-         <br> <br>
-         <button type="button" class="btn btn-primary">Demander une démonstration</button> 
-      </div>  
+    <div class="wrapper">
+      <div class="lead">
+        <h1>DÉGUSTEZ UNE GLACE</h1>
+        <h2>MAINTENANT TOUT DE SUITE</h2>
+        <p>
+          <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#orderForm">
+            Je veux une glace
+          </button>
+        </p>
+      </div>
+    </div>
 
-
-
-      <div class="spacer"></div>
-
-       <div class="container text-center"> 
-        <div class="row">
-
-          <Div class="col-xs-6 col-md-6 feature" >
-              <img src="images/office.png" width="60">
-              <p>  <strong>Happy Office</strong> : CARE for office
-              </p>
-              <ul class="Services text-left">
-                <li><strong>ENTRETIEN OFFICE</strong> : Paniers de fruit et légumes, café et thé, plantes, journaux, produits d'entretiens</li>
-                <br> </br>
-                <li><strong>CARE COLLECTIF</strong> : Well-being, coach sportif, style (barbier & coiffeur), teambuilding, formations, accompagnement</li>
-               
-
-              </ul>
-            </Div>
-
-            <div class="col-xs-6 col-md-6 feature">
-              <img src="images/employees.png" width="60">
-              <p>
-               <strong>Happy Employees</strong> : CARE for employees
-              <ul class="Services text-left">
-                <li><strong>SERVICES DE PROXIMITE</strong> : Pressing, coordonnerie, courses, livraisons</li>
-                 <br> </br>
-                 <li><strong>CONCIERGERIE</strong> : Billeterie, administratif, recherches</li> 
-               
-              </ul>
-
-              </p>
+    <!-- Modal -->
+    <div class="modal fade" id="orderForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Commandez !</h4>
           </div>
-
+          <div class="modal-body">
+            <div id="wufoo-zzstu9e1up5owf">
+            Fill out my <a href="https://iceme.wufoo.com/forms/zzstu9e1up5owf">online form</a>.
+            </div>
+            <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
+            <script type="text/javascript">var zzstu9e1up5owf;(function(d, t) {
+            var s = d.createElement(t), options = {
+            'userName':'iceme',
+            'formHash':'zzstu9e1up5owf',
+            'autoResize':true,
+            'height':'463',
+            'async':true,
+            'host':'wufoo.com',
+            'header':'show',
+            'ssl':true};
+            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+            s.onload = s.onreadystatechange = function() {
+            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+            try { zzstu9e1up5owf = new WufooForm();zzstu9e1up5owf.initialize(options);zzstu9e1up5owf.display(); } catch (e) {}};
+            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+            })(document, 'script');</script>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
         </div>
-       </div>
+      </div>
+    </div>
 
+    <div class="vertical-spacer"></div>
 
-      <div class="spacer"></div>
-
-        <div class="container text-center"> 
-
-            <strong id="comment">Tous vos services sur une seule plateforme, moins chers</strong>  <br>
-            <p id="comment">Comment ça marche?</p>
-            <br> </br>
-            <br> </br>
-          <div class="row">
-
-                <Div class="col-xs-6 col-md-6 feature text-left" >
-                   <p class="text-center">L'entreprise choisit les prestations qu'elle souhaite offrir à ses employés</p> 
-                   <p class="services"><strong>Entretien Office</strong> : WeCare s'occupe de délivrer les produits selon le rythme demandé</p> 
-                   <p class="exemples"> <i>"Je veux être livré chaque semaine d'un grand panier de fruit de saisons pour 10 personnes, et que WeCare s'occupe de l'entretien de nos plantes"</i> </p> 
-                   <p class="services"><strong>Care Collectif</strong> : WeCare s'occupe de réserver des partenaires selon les souhaits de l'entreprise</p>
-                   <p class="exemples"> <i>"Je réserve chaque semaine un coach sportif sur mon lieu de travail pour faire bouger mon équipe, et je souhaite que WeCare s'occupe de trouver un bar proche de l'entreprise et de négocier des tarifs pour nos afterworks"</i> </p> 
-
-                 </div>
-
-                <Div class="col-xs-6 col-md-6 feature text-left" >
-                   <p class="text-center">L'employé choisit directement les services dont il souhaite profiter</p> 
-                   <p class="services"><strong>Service de proximité</strong> : WeCare fait gagner du temps aux employés en se chargeant des services de proximité</p> 
-                   <p class="exemples"> <i>"Je veux que WeCare s'occupe de mettre au pressing mes costumes et mes chemises, et aille me déposer un colis à la poste"</i> </p> 
-                   <p class="services"><strong>Conciergerie</strong> : WeCare s'occupe de répondre aux sollicitations des employés et de les executer pour eux</p>
-                   <p class="exemples"> <i>"Je veux que WeCare s'occupe de mon visa et de mes billets d'avion. Et je veux savoir les tarifs pour visiter Disneyland en semaine"</i> </p> 
-
-                 </div>
-
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-6">
+          <div class="feature">
+            <div class="feature-picture">
+              <img src="images/Employees.png" width="96">
             </div>
+            <p>
+              Choisissez jusque trois parfums
+              parmis notre catalogue de <strong>1000</strong> glaces maison.
+            </p>
           </div>
-
-      <div class="spacer"></div>  
-
-
-        <div class="container text-center"> 
-           <strong id="comment">Pourquoi WeCare?</strong> 
-            <br> </br>
-            <br> </br>
-          <div class="row">
-
-                <Div class="col-xs-6 col-md-4 feature" >
-                   <p><strong>Je suis CEO ou Dirigeant</strong></p>
-                   <p>Une entreprise plus efficace</p>
-                     <ul class="feature text-left">
-                      <br> </br>
-                      <li>Des employés plus productifs</li>
-                       <br> </br>
-                      <li>Des employés heureux et moins stressés</li>
-                      <br> </br> 
-                      <li>Améliorer la culture et la collaboration d'entreprise</li>                 
-                  
-                      
-                 </div>
-
-                 <Div class="col-xs-6 col-md-4 feature" >
-                    <p><strong>Je suis Office Manager</strong></p> 
-                    <p>Gagnez du temps</p>
-                      <ul class="feature text-left">
-                        <br> </br>
-                       <li>Pas de logistique à gérer, des tarifs déjà négociés</li>
-                        <br> </br>
-                        <li>Toutes vos commandes sur un seul espace client</li>
-                         <br> </br>
-                        <li>Concentrez vous sur ce qui compte vraiment</li>
-                 </div>
-
-                 <Div class="col-xs-6 col-md-4 feature" >
-                   <p><strong>Je suis Employé</strong></p>
-                   <p>Réanchantez votre travail</p>
-                     <ul class="feature text-left">
-                         <br></br>
-                         <li>Du bohneur en barre au bureau, soyez heureux</li>
-                         <br> </br>
-                        <li>Confiez nous vos corvées domestiques, soyez libre</li>
-                        <br> </br>
-                        <li>Découvrez vos collègues sous un autre angle</li>
-                 </div>
-
-            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="feature">
+            <img src="images/employees" width="96">
+            <p>
+              L'application vous <strong>géolocalise</strong> automatiquement et vous
+              indique le temps d'attente estimé.
+            </p>
           </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+        </div>
+      </div>
+    </div>
 
-      <div class="spacer"></div>  
+    <div class="vertical-spacer"></div>
 
-
-        <div class="container text-center"> 
-           <strong id="comment">Faîtes une simulation en direct</strong> 
-            <br> </br>
-            <p><strong>Happy Office</strong> est un abonnement de <strong>83€ par mois</strong>.<p></p>  <strong>Happy Employee</strong> est un abonnement de <strong>5€ par employé par mois</strong>  </p>
-            <p>L'abonnement donne accès aux services WeCare, et à tous nos partenaires dont les tarifs ont été préalablement négociés. Vous pouvez nous demander n'importe quoi, et nous vous contacterons régulièrement pour vous expliquer les meilleurs pratiques de CARE dans une entreprise</p>
-            <p>L'Entreprise ou l'employé paie ensuite les produits et services dont elle a besoin, WeCare s'occupe de la logistique, livraison, mise en relation et notre touche de Care supplémentaire</p>
-            <br> </br>
-          <div class="row">
-
-                <Div class="col-xs-6 col-md-4 feature" >
-                   <p></p>Choisissez vos catégories</p>
-                 </div>
-
-                 <Div class="col-xs-6 col-md-4 feature" >
-                    </p>Combien de personnes vont bénéficier du service </p> 
-                 </div>
-
-                 <Div class="col-xs-6 col-md-4 feature" >
-                   <p></p>Testez WeCare</p>
-                </div>
-            </div>
-          </div>
-
-         <div class="spacer"></div>
-
-
-          <div class="container text-center"> 
-              <strong id="comment">Liste de tous nos services</strong> 
-              <br>
-              Choissiez ceux qui vous conviennent! 
-              <br>
-              Tous nos partenaires ont été rigoureusement séléctionnés, ont des prix négociés et peuvent se déplacer.
-                <br> </br>
-               <br> </br>
-              <div class="row">
-
-                <Div class="col-xs-6 col-md-6 feature" >
-                    <img src="images/office.png" width="60">
-                    <p>  <strong>Happy Office</strong> : CARE for office
-                    </p>
-                    <ul class="Services text-left">
-                      <li><strong>ENTRETIEN OFFICE</strong></li>
-                      <p>1. Panier de fruits et légumes de saison selon envies directement de producteurs locaux</p>
-                      <p>2. Café et thés selon envies de producteurs bio et responsables</p>
-                      <p>3. Boissons non alcoolisées ou alcoolisées aux tarifs négociés auprès de grossistes</p> 
-                      <p>4. Journaux et magazines 50% moins cher</p> 
-                      <p>5. Produits d'entretiens ou domestiques à usage récurrent (PQ, produit vaisselles et à nettoyer</p> 
-                      <br> </br>
-                     <li><strong>CARE COLLECTIF</strong></li>
-                      <p>1. Well-Being : Sophrologue, relaxologue, yoga, masseurs assis, tai-shi</p>
-                      <p>2. Coachs Sportifs : Remise en forme, Workout & Crossfit, Boxe, MMA</p> 
-                      <p>3. Style : Coiffeur, barbier, photographe, coach vocal et coach d'image</p> 
-                      <p>4. TeamBuilding : Réservation de bars, salles et restaurants, activités insolites sur place ou à l'extérieur </p>
-                      <p>5. Formations : Langues étrangères, Sales (commercial) et service client</p>
-
-
-                    </ul>
-                  </Div>
-
-                  <div class="col-xs-6 col-md-6 feature">
-                    <img src="images/employees.png" width="60">
-                    <p>
-                     <strong>Happy Employees</strong> : CARE for employees
-                    <ul class="Services text-left">
-                      <li><strong>SERVICES DE PROXIMITE</strong></li>
-                        <p>1. Pressing, retouches et laverie</p>
-                        <p>2. Coordonnerie, clefs et maroquinerie</p>
-                        <p>3. Courses et livraisons directement sur lieux de travail</p>
-                        <p>4. Poste et services administratifs</p>
-                       <br> </br> 
-                       <li><strong>CONCIERGERIE</strong> :</li> 
-                        <p>1. Billeterie et réservations</p> 
-                        <p>2. Administratifs, visa et déclaratifs</p> 
-                        <p>3. Recherches en tout genre</p>
-                        <p>4. Tout ce que voulez qui vous décharge d'une corvée domestique :)</p>
-                    </ul>
-
-                    </p>
-                 </div>
-
-                </div>
-       </div>
-
-       <div class="spacer"></div>  
-
-
-        <div class="container text-center"> 
-           <strong id="comment">Proposer mon entreprise ou mon auto-entreprise sur WeCare</strong> 
-            <br> </br>
-            <p>Vous avez une entreprise ou êtes auto-entrepreneur, vous produisez des produits ou des services pouvant intéresser nos clients et leurs employés? </p>
-            <button type="button" class="btn btn-primary">Devenir partenaire WeCare!</button> 
-
-
-
-         <div class="spacer"></div>
-
-
-  <div id="footer">
     <div class="container">
       <div class="row">
+        <div class="col-xs-12 text-center">
+          <!-- Begin MailChimp Signup Form -->
+          <h2>Inscrivez-vous à la Newsletter</h2>
+          <div id="mc_embed_signup">
+            <form action="http://iceme.us8.list-manage.com/subscribe/post?u=0f796021763dc414ae74dfa60&amp;id=d4fc47ad7d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
 
-        <div class="col-xs-6 col-md-3">
-          <ul class="list-inline social">
+              <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
 
-
-            <li class="list-inline-item">
-              <a href="https://FB.com/WeCare">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://linkedin.com/WeCare"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://twitter.com/WeCare"><i class="fa fa-twitter-square" aria-hidden="true"></i>
-              </a>
-            </li>
-          
-           </ul>
-        </div>
-        
-
-         <div class="col-xs-6 col-md-9 text-right">
-           <p>
-            Si vous voulez levez le matin en étant plus excité à l'idée d'aller au travail, <a href="http://WeCare.co">WeCare</a> aura remplit sa mission.
-            </p>
-            <p>
-            WeCare remplit les critères de RSE obligatoires d'une entreprise
-            </p>
-            <p> 06 12 21 83 82</p>
-            <p>hello@wecare.io</p>
+              <input type="submit" value="Suivez-nous" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+            </form>
           </div>
 
-         </div>
-       </div>
-   </div>
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+    </div>
 
+
+    <div class="vertical-spacer"></div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="list-inline social text-center">
+              <li>
+                <a href="https://twitter.com/iceme">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://facebook.com/iceme">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/iceme">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtube.com/iceme">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9">
+            <div class="text-center">
+              IceMe est une compagnie fictive créée dans le cadre de
+              <a href="http://www.cetetejecode.fr">cetetejecode.fr</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-39720822-3', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
